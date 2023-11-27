@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+  /*top header styles */
   .top-header-select {
     @apply px-4 py-2  border-r border-gray-100;
   }
@@ -11,5 +12,9 @@
   }
   .top-header-contact {
     @apply px-4 py-2 border-l border-gray-100;
+  }
+  /* header styles */
+  .header-list-items {
+    @apply transition duration-300 ease-in-out hover:text-red-400 font-semibold uppercase;
   }
 }
