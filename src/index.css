@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 68, 0.52),
+      rgba(41, 46, 68, 0.73)
+    ),
+    url("https://wallpaperset.com/w/full/a/4/6/49091.jpg");
+  background-size: cover;
+}
+
 @layer components {
   /*top header styles */
   .top-header-select {
