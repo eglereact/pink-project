@@ -1,5 +1,6 @@
 import React from "react";
 import { BsCrosshair, BsListStars, BsSearch } from "react-icons/bs";
+import { destinations } from "../data";
 
 function Banner() {
   return (
@@ -33,6 +34,18 @@ function Banner() {
             Search <BsSearch className="ml-2" />
           </button>
         </form>
+      </div>
+      <div className="flex justify-center items-center -m-20 space-x-6">
+        {destinations.map((item) => (
+          <div
+            key={item.id}
+            className="bg-white h-36 w-40 shadow-xl rounded flex flex-col justify-center items-center space-y-1"
+          >
+            <span className="text-2xl">{item.icon}</span>
+            <h1 className="font-semibold capitalize">{item.name}</h1>
+            <p className="text-gray-500 text-xs">{item.number} listings</p>
+          </div>
+        ))}
       </div>
     </div>
   );
