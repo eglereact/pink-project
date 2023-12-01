@@ -13,7 +13,7 @@ function Banner() {
           just One click
         </p>
         <form className="flex my-10">
-          <div className="flex justify-center items-center bg-white p-5 rounded-l-lg">
+          <div className="flex justify-center items-center bg-white p-5 rounded-l">
             <h3 className="text-gray-800 font-semibold pr-2">What?</h3>
             <input
               className="outline-none w-[260px]"
@@ -21,7 +21,7 @@ function Banner() {
             />
             <BsListStars className="text-gray-800 font-semibold pl-2 text-3xl" />
           </div>
-          <div className="flex justify-center items-center bg-white p-5 rounded-r-lg">
+          <div className="flex justify-center items-center bg-white p-5 rounded-r">
             <h3 className="text-gray-800 font-semibold pr-2">Location</h3>
             <input
               className="outline-none w-[260px]"
