@@ -4,7 +4,7 @@ import { destinations } from "../data";
 
 function Banner() {
   return (
-    <div className="h-[800px] bg-image bg-no-repeat">
+    <div className="h-[800px] bg-image bg-no-repeat mb-32">
       <div className="flex flex-col h-full justify-center items-center">
         <h1 className="text-white text-4xl font-bold uppercase tracking-widest py-6 w-1/2 text-center">
           best place to find and explore that all you need
